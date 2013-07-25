@@ -3,8 +3,13 @@ syntax on
 filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
-colorscheme solarized
 autocmd VimEnter * NERDTree
 autocmd BufEnter * NERDTreeMirror
-
 autocmd VimEnter * wincmd w
+set background=dark
+" solarized options 
+ let g:solarized_termcolors = 256
+ let g:solarized_visibility = "high"
+ let g:solarized_contrast = "high"
+ colorscheme solarized
+ let g:NERDTreeDirArrows=0
