@@ -14,4 +14,4 @@ vimrc
 
 Oh-my-zsh:
 ===========
-oh-my-zsh with powerline and agnoter theme
+zsrch config: oh-my-zsh with powerline and agnoter theme
