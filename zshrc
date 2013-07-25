@@ -101,3 +101,6 @@ export UPS_PASSWORD='jv6uBpiJ9vCLxD'
 
 # export EDITOR="/usr/local/bin/mate -w"
 export EDITOR="vim"
+ctags=/usr/local/bin/ctags
+
+export PATH="/usr/local/bin:$PATH"

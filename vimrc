@@ -3,9 +3,9 @@ syntax on
 filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
-autocmd VimEnter * NERDTree
-autocmd BufEnter * NERDTreeMirror
-autocmd VimEnter * wincmd w
+"autocmd VimEnter * NERDTree
+"autocmd BufEnter * NERDTreeMirror
+"autocmd VimEnter * wincmd w
 set background=dark
 " solarized options 
  let g:solarized_termcolors = 256
@@ -19,3 +19,14 @@ set background=dark
  let g:miniBufExplMapWindowNavArrows = 1 
  let g:miniBufExplMapCTabSwitchBufs = 1 
  let g:miniBufExplModSelTarget = 1
+ 
+ " Taglist plugin mapping
+ noremap <silent> <Leader>t :TlistToggle<CR>
+
+ " Taglist plugin config
+ let Tlist_Use_Right_Window = 0
+ let Tlist_Inc_Winwidth = 0
+ let Tlist_WinWidth = 45
+ let Tlist_GainFocus_On_ToggleOpen= 1
+ let Tlist_Ctags_Cmd = 'ctags'
+ let Tlist_Show_One_File = 1

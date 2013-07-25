@@ -25,3 +25,6 @@
 [submodule "bundle/minibuflexpl"]
 	path = bundle/minibuflexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/JimiSmith/vim-taglist.git
