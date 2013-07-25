@@ -1,1 +1,3 @@
-set guifont=Source\ Code\ Pro\ for\ Powerline:h14
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
