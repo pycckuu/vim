@@ -31,3 +31,6 @@
 [submodule "bundle/taglist/vim-taglist2"]
 	path = bundle/taglist/vim-taglist2
 	url = https://github.com/pycckuu/vim-taglist.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = https://github.com/pycckuu/vim-taglist.git
