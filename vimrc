@@ -27,7 +27,7 @@ set background=dark
  " Taglist plugin config
  let Tlist_Use_Right_Window = 1
  let Tlist_Inc_Winwidth = 0
- let Tlist_WinWidth = 30
+ let Tlist_WinWidth = 35 
  let Tlist_GainFocus_On_ToggleOpen= 1
  let Tlist_Ctags_Cmd = 'ctags'
  let Tlist_Show_One_File = 1
