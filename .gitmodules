@@ -55,3 +55,9 @@
 [submodule "bundle/acp"]
 	path = bundle/acp
 	url = https://github.com/othree/vim-autocomplpop.git
+[submodule "vim-autocomplpop"]
+	path = vim-autocomplpop
+	url = https://github.com/othree/vim-autocomplpop.git
+[submodule "bundle/vim-autocomplpop"]
+	path = bundle/vim-autocomplpop
+	url = https://github.com/othree/vim-autocomplpop.git
