@@ -23,7 +23,10 @@ set background=dark
  " Taglist plugin mapping
  noremap <silent> <Leader>r :TlistToggle<CR>
  noremap <silent> <Leader>t :NERDTreeToggle<CR>
-
+ noremap <silent> <Leader>[ :tabprevious<CR>
+ noremap <silent> <Leader>] :tabnext<CR>
+ noremap <silent> <Leader>q :tabclose<CR>
+ noremap <silent> <Leader>n :tabnew<CR>
  " Taglist plugin config
  let Tlist_Use_Right_Window = 1
  let Tlist_Inc_Winwidth = 0
