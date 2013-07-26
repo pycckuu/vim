@@ -36,3 +36,6 @@ set background=dark
  let Tlist_Show_One_File = 1
 
  set backspace=indent,eol,start 
+ set tabstop=2
+ set expandtab
+ set spell spelllang=en_us
