@@ -21,12 +21,15 @@ set background=dark
  let g:miniBufExplModSelTarget = 1
  
  " Taglist plugin mapping
- noremap <silent> <Leader>t :TlistToggle<CR>
+ noremap <silent> <Leader>r :TlistToggle<CR>
+ noremap <silent> <Leader>t :NERDTreeToggle<CR>
 
  " Taglist plugin config
- let Tlist_Use_Right_Window = 0
+ let Tlist_Use_Right_Window = 1
  let Tlist_Inc_Winwidth = 0
- let Tlist_WinWidth = 45
+ let Tlist_WinWidth = 30
  let Tlist_GainFocus_On_ToggleOpen= 1
  let Tlist_Ctags_Cmd = 'ctags'
  let Tlist_Show_One_File = 1
+
+ set backspace=indent,eol,start 

@@ -7,7 +7,7 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
-DEFAULT_USER=imarkelo
+DEFAULT_USER=igormarkelov
 LANG=en_US.utf8
 
 # Example aliases
