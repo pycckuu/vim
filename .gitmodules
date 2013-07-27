@@ -67,3 +67,6 @@
 [submodule "bundle/css.vim"]
 	path = bundle/css.vim
 	url = https://github.com/JulesWang/css.vim.git
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = https://github.com/Keithbsmiley/rspec.vim.git
