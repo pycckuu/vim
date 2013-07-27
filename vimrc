@@ -52,6 +52,7 @@ set background=dark
  au FileType c setl ofu=ccomplete#CompleteCpp
  au FileType css setl ofu=csscomplete#CompleteCSS
 
+ " statusbar
  set laststatus=2                             " always show statusbar  
  set statusline=  
  set statusline+=%-10.3n\                     " buffer number  
@@ -62,3 +63,8 @@ set background=dark
  set statusline+=0x%-8B                       " character value  
  set statusline+=%-14(%l,%c%V%)               " line, character  
  set statusline+=%<%P                         " file position
+
+ " mooving tabs
+ "map <C-H> :execute "tabmove" tabpagenr() - 2 <CR>
+ "map <C-J> :execute "tabmove" tabpagenr() <CR>
+ set shiftwidth=2
