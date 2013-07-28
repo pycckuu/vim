@@ -70,3 +70,9 @@
 [submodule "bundle/rspec"]
 	path = bundle/rspec
 	url = https://github.com/Keithbsmiley/rspec.vim.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-rspec-runner"]
+	path = bundle/vim-rspec-runner
+	url = https://github.com/rorymckinley/vim-rspec-runner.git
