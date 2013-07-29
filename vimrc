@@ -77,7 +77,7 @@ set background=dark
  function! RunSpec(spec_path, spec_opts)
      let speccish = match(@%, '_spec.rb$') != -1
        if speccish
-          exec '!bundle exec rspec ' . a:spec_opts . ' ' . a:spec_path
+          exec '!zeus rspec ' . a:spec_opts . ' ' . a:spec_path
        else
           echo '<< WARNING >> RunSpec() can only be called from inside spec files!'
        endif
