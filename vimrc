@@ -3,9 +3,10 @@ syntax on
 filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
-"autocmd VimEnter * NERDTree
-"autocmd BufEnter * NERDTreeMirror
-"autocmd VimEnter * wincmd w
+autocmd VimEnter * NERDTree
+autocmd BufEnter * NERDTreeMirror
+let g:Tlist_Auto_Open = 1
+autocmd VimEnter * wincmd w
 set background=dark
 " solarized options 
  let g:solarized_termcolors = 256
