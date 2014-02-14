@@ -1,19 +1,17 @@
 execute pathogen#infect()
 cd ~/Documents/git/
 syntax on
+set laststatus=2
 filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
 autocmd VimEnter * NERDTree
 autocmd BufEnter * NERDTreeMirror
 let g:Tlist_Auto_Open = 1
+let g:bufferline_echo = 0
+let g:airline_powerline_fonts = 1
 autocmd VimEnter * wincmd w
 set background=dark
-
-"font
-if has('gui_running')
-  set guifont=Lucida_Console:h11
-endif
 
 " solarized options 
  let g:solarized_termcolors = 256
@@ -71,7 +69,7 @@ endif
  set statusline+=0x%-8B                       " character value  
  set statusline+=%-14(%l,%c%V%)               " line, character  
  set statusline+=%<%P                         " file position
-
+"
  " mooving tabs
  "map <C-H> :execute "tabmove" tabpagenr() - 2 <CR>
  "map <C-J> :execute "tabmove" tabpagenr() <CR>
@@ -90,3 +88,7 @@ endif
           echo '<< WARNING >> RunSpec() can only be called from inside spec files!'
        endif
 endfunction
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
