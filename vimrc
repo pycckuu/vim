@@ -1,4 +1,5 @@
 execute pathogen#infect()
+cd ~/Documents/git/
 syntax on
 filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -8,6 +9,12 @@ autocmd BufEnter * NERDTreeMirror
 let g:Tlist_Auto_Open = 1
 autocmd VimEnter * wincmd w
 set background=dark
+
+"font
+if has('gui_running')
+  set guifont=Lucida_Console:h11
+endif
+
 " solarized options 
  let g:solarized_termcolors = 256
  let g:solarized_visibility = "high"
@@ -22,12 +29,12 @@ set background=dark
  let g:miniBufExplModSelTarget = 1
  
  " Taglist plugin mapping
- noremap <silent> <Leader>y :TlistToggle<CR>
- noremap <silent> <Leader>t :NERDTreeToggle<CR>
- noremap <silent> <Leader>[ :tabprevious<CR>
- noremap <silent> <Leader>] :tabnext<CR>
- noremap <silent> <Leader>q :tabclose<CR>
- noremap <silent> <Leader>n :tabnew<CR>
+ noremap <silent> <c-r> :TlistToggle<CR>
+ noremap <silent> <c-k> :NERDTreeToggle<CR>
+ noremap <silent> <c-h> :tabprevious<CR>
+ noremap <silent> <c-l> :tabnext<CR>
+ noremap <silent> <c-q> :tabclose<CR>
+ noremap <silent> <c-n> :tabnew<CR>
 
  " Taglist plugin config
  let Tlist_Use_Right_Window = 1
