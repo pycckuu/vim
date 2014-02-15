@@ -9,7 +9,7 @@ set number
 "autocmd VimEnter * NERDTree
 "autocmd BufEnter * NERDTreeMirror
 let g:Tlist_Auto_Open = 1
-autocmd VimEnter * wincmd w
+"autocmd VimEnter * wincmd w
 set background=dark
 "let g:airline_powerline_fonts = 1
 set laststatus=2
