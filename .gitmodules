@@ -79,12 +79,12 @@
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
 	url = https://github.com/scrooloose/snipmate-snippets.git
-[submodule "bundle/MatlabFilesEdition"]
-	path = bundle/MatlabFilesEdition
-	url = https://github.com/vim-scripts/MatlabFilesEdition.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
 [submodule "bundle/promptline.vim"]
 	path = bundle/promptline.vim
 	url = https://github.com/edkolev/promptline.vim.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git

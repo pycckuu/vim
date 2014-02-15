@@ -7,7 +7,7 @@ filetype plugin indent on
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
 "autocmd VimEnter * NERDTree
-autocmd BufEnter * NERDTreeMirror
+"autocmd BufEnter * NERDTreeMirror
 let g:Tlist_Auto_Open = 1
 autocmd VimEnter * wincmd w
 set background=dark
@@ -33,6 +33,7 @@ let g:ctrlp_working_path_mode = 0
 " let g:miniBufExplMapCTabSwitchBufs = 1 
 " let g:miniBufExplModSelTarget = 1
 " 
+let g:loaded_airline = 0
  " Taglist plugin mapping
  noremap <silent> <c-r> :TlistToggle<CR>
  noremap <silent> <c-k> :NERDTreeToggle<CR>
