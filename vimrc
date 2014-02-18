@@ -19,6 +19,7 @@ let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline_theme='badwolf'
 set ambiwidth=double
 
+let NERDTreeShowBookmarks=1
 let g:ctrlp_working_path_mode = 0
 
 "irline_powerline_fonts = 1 solarized options 

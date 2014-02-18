@@ -22,9 +22,6 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "bundle/minibuflexpl"]
-	path = bundle/minibuflexpl
-	url = https://github.com/fholgado/minibufexpl.vim.git
 [submodule "bundle/taglist/vim-taglist"]
 	path = bundle/taglist/vim-taglist
 	url = https://github.com/pycckuu/vim-taglist.git
