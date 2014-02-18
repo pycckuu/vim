@@ -1,6 +1,6 @@
 
 execute pathogen#infect()
-cd ~/Documents/git/
+"cd ~/Documents/git/
 syntax on
 set laststatus=2
 filetype plugin indent on
@@ -8,7 +8,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 set number
 "autocmd VimEnter * NERDTree
 "autocmd BufEnter * NERDTreeMirror
-let g:Tlist_Auto_Open = 1
+"let g:Tlist_Auto_Open = 1
 "autocmd VimEnter * wincmd w
 set background=dark
 "let g:airline_powerline_fonts = 1
@@ -16,7 +16,7 @@ set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_theme='bubblegum'
+let g:airline_theme='badwolf'
 set ambiwidth=double
 
 let g:ctrlp_working_path_mode = 0
@@ -28,11 +28,11 @@ let g:ctrlp_working_path_mode = 0
  colorscheme solarized
  let g:NERDTreeDirArrows=0
 "minibuf options
-" let g:miniBufExplMapWindowNavVim = 1 
-" let g:miniBufExplMapWindowNavArrows = 1 
-" let g:miniBufExplMapCTabSwitchBufs = 1 
-" let g:miniBufExplModSelTarget = 1
-" 
+ let g:miniBufExplMapWindowNavVim = 1 
+ let g:miniBufExplMapWindowNavArrows = 1 
+ let g:miniBufExplMapCTabSwitchBufs = 1 
+ let g:miniBufExplModSelTarget = 1
+ 
 let g:loaded_airline = 0
  " Taglist plugin mapping
  noremap <silent> <c-r> :TlistToggle<CR>
