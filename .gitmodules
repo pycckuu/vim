@@ -94,3 +94,6 @@
 [submodule "bundle/MatlabFiles"]
 	path = bundle/MatlabFiles
 	url = https://github.com/vim-scripts/MatlabFilesEdition.git
+[submodule "bundle/vim-multicursor"]
+	path = bundle/vim-multicursor
+	url = https://github.com/paradigm/vim-multicursor.git
