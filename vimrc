@@ -22,6 +22,7 @@ set ambiwidth=double
 let NERDTreeShowBookmarks=1
 let g:ctrlp_working_path_mode = 0
 
+
 "irline_powerline_fonts = 1 solarized options 
  let g:solarized_termcolors = 256
  let g:solarized_visibility = "high"
@@ -36,12 +37,12 @@ let g:ctrlp_working_path_mode = 0
  
 let g:loaded_airline = 0
  " Taglist plugin mapping
- noremap <silent> <c-r> :TlistToggle<CR>
- noremap <silent> <c-k> :NERDTreeToggle<CR>
- noremap <silent> <c-h> :tabprevious<CR>
- noremap <silent> <c-l> :tabnext<CR>
- noremap <silent> <c-q> :tabclose<CR>
- noremap <silent> <c-n> :tabnew<CR>
+ noremap <silent> <leader>r :TlistToggle<CR>
+ noremap <silent> <leader>k :NERDTreeToggle<CR>
+ noremap <silent> <leader>[ :tabprevious<CR>
+ noremap <silent> <leader>] :tabnext<CR>
+ noremap <silent> <leader>q :tabclose<CR>
+ noremap <silent> <leader>n :tabnew<CR>
 
  " Taglist plugin config
  let Tlist_Use_Right_Window = 1
