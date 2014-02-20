@@ -94,3 +94,9 @@
 [submodule "bundle/vim-multicursor"]
 	path = bundle/vim-multicursor
 	url = https://github.com/paradigm/vim-multicursor.git
+[submodule "bundle/Buffet.vim"]
+	path = bundle/Buffet.vim
+	url = https://github.com/sandeepcr529/Buffet.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
