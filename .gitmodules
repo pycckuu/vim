@@ -97,3 +97,6 @@
 [submodule "bundle/MatlabFilesEdn"]
 	path = bundle/MatlabFilesEdn
 	url = https://github.com/vim-scripts/MatlabFilesEdition.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
