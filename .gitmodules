@@ -94,3 +94,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/FilesEditionMatlab"]
+	path = bundle/FilesEditionMatlab
+	url = https://github.com/vim-scripts/MatlabFilesEdition.git
