@@ -88,9 +88,6 @@
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
-[submodule "bundle/MatlabFiles"]
-	path = bundle/MatlabFiles
-	url = https://github.com/vim-scripts/MatlabFilesEdition.git
 [submodule "bundle/vim-multicursor"]
 	path = bundle/vim-multicursor
 	url = https://github.com/paradigm/vim-multicursor.git
