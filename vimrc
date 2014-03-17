@@ -25,6 +25,8 @@ autocmd BufEnter *.m    compiler mlint
 
 let NERDTreeShowBookmarks=1
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_open_new_file = 't'
+let g:ctrlp_open_multiple_files = 't'
 
 
 "irline_powerline_fonts = 1 solarized options 
