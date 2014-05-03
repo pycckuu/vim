@@ -11,6 +11,7 @@ set number
 "let g:Tlist_Auto_Open = 1
 "autocmd VimEnter * wincmd w
 set background=dark
+set rnu
 "let g:airline_powerline_fonts = 1
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
@@ -58,6 +59,7 @@ let g:loaded_airline = 0
  let Tlist_Ctags_Cmd = 'ctags'
  let Tlist_Show_One_File = 1
 
+ set paste
  set backspace=indent,eol,start 
  set tabstop=2
  set expandtab
@@ -67,6 +69,7 @@ let g:loaded_airline = 0
  set smartcase 
  set ignorecase
 
+" REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
  filetype plugin on
  au FileType php setl ofu=phpcomplete#CompletePHP
  au FileType ruby,eruby setl ofu=rubycomplete#Complete
@@ -97,6 +100,31 @@ let g:loaded_airline = 0
  noremap <Leader>rf :call RunSpec(expand('%'), '-fd')<CR>
  noremap <Leader>rl :call RunSpec(expand('%'), '-fd -l ' . line('.'))<CR>
   
+ "Live latex preview and Latex settings
+ nmap <F11> :LLPStartPreview<cr>
+ autocmd Filetype tex setl updatetime=1000
+ let g:livepreview_previewer = 'open -a Skim'
+ :let Tex_FoldedSections=""
+ :let Tex_FoldedEnvironments=""
+ :let Tex_FoldedMisc=""
+
+" IMPORTANT: win32 users will need to have 'shellslash' set so that latex
+" can be called correctly.
+set shellslash
+
+" IMPORTANT: grep will sometimes skip displaying the file name if you
+" search in a singe file. This will confuse Latex-Suite. Set your grep
+" program to always generate a file-name.
+set grepprg=grep\ -nH\ $*
+
+" OPTIONAL: This enables automatic indentation as you type.
+filetype indent on
+
+" OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
+" 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
+" The following changes the default filetype back to 'tex':
+let g:tex_flavor='latex'
+
  function! RunSpec(spec_path, spec_opts)
      let speccish = match(@%, '_spec.rb$') != -1
        if speccish
